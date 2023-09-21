@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: tomato;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+    color: tomato;
+    text-align: center;
+}
+
+h3,
+h4 {
+    color: #007BFF;
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: tomato;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.intro,
+.skills {
+    display: flex;
+}
+
+.vl {
+    border-left: 6px solid #007BFF;
+}
+
+strong {
+    color: #007BFF;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: tomato;
+    margin: 0 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
